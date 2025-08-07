@@ -1,0 +1,11 @@
+public class avgofmrks {
+    public static void main(String[] args) {
+        int maths = 85;      
+        int physics = 90;
+        int chemistry = 88;
+        int total = maths + physics + chemistry;   
+        double average = total / 3.0;            
+        // Output
+        System.out.println("Average marks: " + average);
+    }
+}
